@@ -1,0 +1,17 @@
+name: 2024-uh
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - jupyter
+  - numpy
+  - xarray
+  - netcdf4
+  - matplotlib
+  - pygmt
+  # Fatiando packages
+  - harmonica
+  - verde
+  - ensaio
+  - boule
