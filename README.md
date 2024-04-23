@@ -1,5 +1,9 @@
 # Modernizing gravity processing: use the gravity disturbance
 
+Santiago Soler
+
+_University of British Columbia_
+
 ## Information
 
 | Information |                                        |
