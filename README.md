@@ -33,7 +33,7 @@ Here will provide instructions to:
 - or [Install Python locally](#install-python-locally)
 
 
-## Configure Google Colab
+### Configure Google Colab
 
 To be able to run the Jupyter notebooks for this tutorial in Google Colab,
 we'll need to follow these steps:
@@ -44,18 +44,18 @@ we'll need to follow these steps:
 1. Install some Python libraries that we'll need to use, such as
    [harmonica][harmonica].
 
-### Step 1: Login to our Google Colab account
+#### Step 1: Login to our Google Colab account
 
 If you don't have a Google account, create one and log in. If you do, you just
 need to log in.
 
-### Step 2: Create a new notebook
+#### Step 2: Create a new notebook
 
 1. Access to Google Colab by going to: https://colab.research.google.com
 1. Find the top menu and choose `File` > `New notebook`. A new tab should open
    with a blank notebook in it.
 
-### Step 3: Install `conda` in Colab
+#### Step 3: Install `conda` in Colab
 
 Paste this to **the first cell in the notebook**:
 
@@ -72,7 +72,7 @@ condacolab.install()
 Run the cell, wait until the kernel is restarted, and then follow to the next
 step.
 
-### Step 4: Install some Python libraries
+#### Step 4: Install some Python libraries
 
 To be able to run the notebook we need to install some Python libraries
 that aren't preinstalled in the default Google Colab environment.
@@ -94,7 +94,7 @@ that aren't preinstalled in the default Google Colab environment.
 > If it's an existing notebook, make sure that it has the two cells described
 > in this and in the previous step, and run them.
 
-## Install Python locally
+### Install Python locally
 
 To be able to run the Jupyter notebooks for this tutorial in our own machines,
 we'll have to follow these steps:
@@ -106,7 +106,7 @@ we'll have to follow these steps:
 1. Activate this conda environment and run [Jupyter][jupyter] to start
    coding.
 
-### Step 1: Install a Python distribution
+#### Step 1: Install a Python distribution
 
 We recommend installing a Python distribution like [miniforge][miniforge] or
 [Anaconda][anaconda].
@@ -117,7 +117,7 @@ install new Python libraries, and also create _environments_.
 - Install miniforge: https://github.com/conda-forge/miniforge#install
 - Install Anaconda: https://docs.anaconda.com/anaconda/install
 
-### Step 2: Create the `2024-uh` conda environment
+#### Step 2: Create the `2024-uh` conda environment
 
 1. Download the [`environment.yml`][environment_yml] file from
    (right-click and select "Save page as" or similar).
@@ -132,7 +132,7 @@ install new Python libraries, and also create _environments_.
    environment.yml` (this will download and install all of the packages used in
    the tutorial).
 
-### Step 3: Activate the `2024-uh` environment and start Jupyter
+#### Step 3: Activate the `2024-uh` environment and start Jupyter
 
 > [!TIP]
 > You'll need a browser that is able to run Jupyter (basically anyone except
