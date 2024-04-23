@@ -9,9 +9,14 @@ dependencies:
   - xarray
   - netcdf4
   - matplotlib
+  - pyproj
   - pygmt
   # Fatiando packages
   - harmonica
   - verde
   - ensaio
   - boule
+  # Notebook linting
+  - nbqa
+  - black
+  - ruff
